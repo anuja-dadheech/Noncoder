@@ -1,0 +1,18 @@
+Q.1.How to change monitor place from desktop to downloads?
+Step1: Go to Home
+Step2: Ctrl+H
+Step3: Open .config folder
+Step4: Open  user-dirs.dirs file
+Step5: Change the entry associated with XDG_DESKTOP_DIR to the Downloads.
+
+
+Q.2. Create 500 folders in Windows using cmd?
+-->for /l %i in (0,1,500) do md 00%i
+
+Q.3. Why in cal 9 1752 command days 3 to 13 are missing?
+-->In september 1752,Julian Calender was replaced with Gregorian Calender by 
+British Empire. Calender was 11 days behind the Gregorian , so 14th september 
+followed 2nd September on the day of change.So days 3 to 13 are lost.
+
+
+
