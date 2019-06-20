@@ -1,0 +1,13 @@
+#steps to acess firefox not through icon but through terminal
+
+1>.find the location for the firefox source using -$ which Firefox command
+2>. go to the path from the above command to acess the firefox code file
+3>. Copy the code from the file.
+4>. using Terminal , Open bashrc file using the command -$gedit .bashrc (root permission is required to acess the bashrc file)
+   #all the permanent changes to be made in any of the commans or aliases are done using bashrc file
+5> create a function with name Firefox() and paste the copied code from the firefox file.
+6>. save the changes in the bashrc file.
+7>.Delete the code from the original firefox file , makin the browser icon irresponsive.
+7>.open new terminal.
+8>.type the function name Firefox
+## the browser window will be opned##
